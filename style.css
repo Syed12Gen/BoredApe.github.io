@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.parent {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+.img img {
+  transition: 0.4s all ease-in-out;
+  width: 100%;
+ }
+ .img:hover > img {
+  transform: scale(1.3) rotate(50deg);
+}
+.content {
+  width: 600px;
+  padding-left: 15px;
+  
+
+}
+
+
+.content_wrapper{
+  padding: 10px 20px;
+}
+.buy {
+  border: 1px solid black;
+  text-align: center;
+  background-color: blueviolet;
+ border-radius: 20px;
+
+}
+.buy a{
+  width: 100%;
+  display: block;
+}
+.buy:hover {
+  background-color:chartreuse;
+  font-size: 200%;
+}
+
